@@ -3,7 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateRM = require("./utils/generateMarkdown.js");
-const fileName = "README.md";
+const fileName = "README2.md";
 
 // TODO: Create an array of questions for user input
 //use the inquirer syntax similiar to fetch and then in .then(questions) to access the array as response.
@@ -41,6 +41,7 @@ const questions = [
     name: "license",
     message: "Please select a license if applicable from the choices provided:",
     choices: [
+      "No License",
       "GNU AGPLv3",
       "GNU GPLv3",
       "GNU LGPLv3",
@@ -56,6 +57,7 @@ const questions = [
     name: "badges",
     message: "Please select a badge:",
     choices: [
+      "No Badge",
       "GitHub Stats",
       "Most Used Languages",
       "Contributors Badge",
@@ -115,7 +117,14 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+//add inquirer and writeFile here
+function init() {
+  inquirer
+  .prompt(questions)
+  .then((data) => {
+    writeToFile(fileName, data)
+  })
+}
 
 // Function call to initialize app
 init();
