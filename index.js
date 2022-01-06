@@ -3,6 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateRM = require("./utils/generateMarkdown.js");
+const fileName = "README.md";
 
 // TODO: Create an array of questions for user input
 //use the inquirer syntax similiar to fetch and then in .then(questions) to access the array as response.
@@ -65,7 +66,7 @@ const questions = [
   {
     type: "input",
     name: "features",
-    message: "Please include any features"
+    message: "Please include any features",
   },
   {
     type: "input",
@@ -89,20 +90,29 @@ const questions = [
   },
 ];
 
-inquirer.prompt(questions).then((data) => {
-  console.log(data);
-  const rmContent = generateMarkdown(data);
+// inquirer.prompt(questions).then((data) => {
+//   console.log(data);
+//   const rmContent = generateMarkdown(data);
 
-  fs.writeFile("README2.md", rmContent, (err) =>
-    err
-      ? console.log(err)
-      : console.log("Excelsior! You have generated a professional README file!")
-  );
-});
+//   fs.writeFile("README2.md", rmContent, (err) =>
+//     err
+//       ? console.log(err)
+//       : console.log("Excelsior! You have generated a professional README file!")
+//   );
+// });
 //console.log the questions and answers returned
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  const markdown = generateRM(data);
+  fs.writeFile(fileName, markdown, (err) =>
+    err
+      ? console.log(err)
+      : console.log(
+          "Excelsior! You have just created a professional README.md file!"
+        )
+  );
+}
 
 // TODO: Create a function to initialize app
 function init() {}
