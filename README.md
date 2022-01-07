@@ -24,7 +24,7 @@
   -Launch using node and fill in the prompts.
  
   
-  ![image](./images/DemoVid.webm)
+  ![image](./images/EditDemoNodeJS.gif)
     
   ## Credits
 

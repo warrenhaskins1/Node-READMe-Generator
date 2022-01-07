@@ -24,15 +24,15 @@ function renderLicenseLink(license) {
   if (license === "No License") {
     return " ";
   } else if (license === "GNU AGPLv3") {
-    return `${license}"https://api.github.com/licenses/agpl-3.0"`;
+    return `${license} https://api.github.com/licenses/agpl-3.0`;
   } else if (license === "Mozilla Public License 2.0") {
-    return `${license}"https://api.github.com/licenses/mpl-2.0"`;
+    return `${license} https://api.github.com/licenses/mpl-2.0`;
   } else if (license === "Apache License 2.0") {
-    return `${license}"https://api.github.com/licenses/apache-2.0"`;
+    return `${license} https://api.github.com/licenses/apache-2.0`;
   } else if (license === "MIT License") {
-    return `${license}"https://api.github.com/licenses/mit"`;
+    return `${license} https://api.github.com/licenses/mit`;
   } else if (license === "The Unlicense") {
-    return `${license}"https://api.github.com/licenses/unlicense"`;
+    return `${license} https://api.github.com/licenses/unlicense`;
   }
 }
 
@@ -59,7 +59,7 @@ function renderLicenseSection(license) {
   if (license !== "No License") {
     return `
     This app is covered under the following license:
-    ${renderLicenseLink(license)}
+     ${renderLicenseLink(license)}
       `;
   } else {
     return " ";
@@ -76,7 +76,7 @@ function generateMarkdown(data) {
 
   ## Description 
 
-  -${data.description}
+  - ${data.description}
   
   ## Table of Contents (Optional)
   
@@ -87,29 +87,29 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  -${data.installation}
+  - ${data.installation}
  
   
   ## Usage
 
-  -${data.usage}
+  - ${data.usage}
  
   
   ![image](assets/images/screenshot.png)
     
   ## Credits
 
-  -${data.credits}
+  - ${data.credits}
   
   ## License
 
-  -${renderLicenseSection(data.license)}
+  - ${renderLicenseSection(data.license)}
   
   ---
   
   ## Badges
 
-  -${renderBadge(data.badges)}
+  ${renderBadge(data.badges)}
   
   ## Features
 
@@ -117,12 +117,14 @@ function generateMarkdown(data) {
   
   ## How to Contribute
 
-  -If you would like to contribute, please feel free to contact us at:
-  -${data.email}
-  -https://github.com/${data.githubUserName}
+  - If you would like to contribute, please feel free to contact us at:
+  
+  - ${data.email}
+
+  - https://github.com/${data.githubUserName}
  
   ## Tests
- -${data.tests}
+ - ${data.tests}
 `;
 }
 
