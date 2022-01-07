@@ -27,8 +27,10 @@
   ![image](./images/EditDemoNodeJS.gif)
     
   ## Credits
-
-  ---
+- https://www.makeuseof.com/badges-that-will-supercharge-your-github-repository/
+- https://learn.screencastify.com/hc/en-us/articles/360049153274-Cut-and-rearrange-clips
+- https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba#apache-20-license
+- https://docs.github.com/en/rest/reference/licenses
   
   ## License
 
