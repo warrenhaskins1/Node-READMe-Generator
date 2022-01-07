@@ -76,7 +76,7 @@ function generateMarkdown(data) {
 
   ## Description 
 
-  - ${data.description}
+   ${data.description}
   
   ## Table of Contents (Optional)
   
@@ -87,23 +87,23 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  - ${data.installation}
+   ${data.installation}
  
   
   ## Usage
 
-  - ${data.usage}
+   ${data.usage}
  
   
   ![image](assets/images/screenshot.png)
     
   ## Credits
 
-  - ${data.credits}
+   ${data.credits}
   
   ## License
 
-  - ${renderLicenseSection(data.license)}
+   ${renderLicenseSection(data.license)}
   
   ---
   
@@ -113,15 +113,15 @@ function generateMarkdown(data) {
   
   ## Features
 
-  -${data.features}
+  ${data.features}
   
   ## How to Contribute
 
   - If you would like to contribute, please feel free to contact us at:
   
-  - ${data.email}
+   ${data.email}
 
-  - https://github.com/${data.githubUserName}
+   https://github.com/${data.githubUserName}
  
   ## Tests
  - ${data.tests}
