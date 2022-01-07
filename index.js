@@ -3,7 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateRM = require("./utils/generateMarkdown.js");
-const fileName = "README2.md";
+const fileName = "README.md";
 
 // TODO: Create an array of questions for user input
 //use the inquirer syntax similiar to fetch and then in .then(questions) to access the array as response.
@@ -88,18 +88,6 @@ const questions = [
     message: "What is your GitHub username?",
   },
 ];
-
-// inquirer.prompt(questions).then((data) => {
-//   console.log(data);
-//   const rmContent = generateMarkdown(data);
-
-//   fs.writeFile("README2.md", rmContent, (err) =>
-//     err
-//       ? console.log(err)
-//       : console.log("Excelsior! You have generated a professional README file!")
-//   );
-// });
-//console.log the questions and answers returned
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
