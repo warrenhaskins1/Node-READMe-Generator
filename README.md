@@ -5,7 +5,7 @@
 
   ## Description 
 
-  -This node.js app allows users to generate a hig-quality README for any of their GitHub projects
+  - This node.js app allows users to generate a high-quality README for any of their GitHub projects
   
   ## Table of Contents (Optional)
   
@@ -16,12 +16,12 @@
 
   ## Installation
 
-  -node index.js
+  - node index.js
  
   
   ## Usage
 
-  -Launch using node and fill in the prompts.
+  - Launch using node and fill in the prompts.
  
   
   ![image](./images/EditDemoNodeJS.gif)
@@ -34,14 +34,14 @@
 
   -
     This app is covered under the following license:
-    MIT License"https://api.github.com/licenses/mit"
+    MIT License https://api.github.com/licenses/mit
       
   
   ---
   
   ## Badges
 
-  -## 😂 Here is a random joke that'll make you laugh!
+  ## 😂 Here is a random joke that'll make you laugh!
   ![Jokes Card](https://readme-jokes.vercel.app/api)
   
   ## Features
@@ -50,9 +50,9 @@
   
   ## How to Contribute
 
-  -If you would like to contribute, please feel free to contact us at:
-  -haskinsDevs@gmail.com
-  -https://github.com/warrenhaskins1
+  - If you would like to contribute, please feel free to contact us at:
+  - haskinsDevs@gmail.com
+  - https://github.com/warrenhaskins1
  
   ## Tests
  ---
