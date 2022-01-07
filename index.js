@@ -43,26 +43,10 @@ const questions = [
     choices: [
       "No License",
       "GNU AGPLv3",
-      "GNU GPLv3",
-      "GNU LGPLv3",
       "Mozilla Public License 2.0",
       "Apache License 2.0",
       "MIT License",
-      "Boost Software License 1.0",
       "The Unlicense",
-    ],
-  },
-  {
-    type: "list",
-    name: "badges",
-    message: "Please select a badge:",
-    choices: [
-      "No Badge",
-      "GitHub Stats",
-      "Most Used Languages",
-      "Contributors Badge",
-      "Random Joke Generator",
-      "Profile View Counter",
     ],
   },
   {
