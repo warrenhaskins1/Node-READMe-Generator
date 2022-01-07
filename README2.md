@@ -1,11 +1,11 @@
 
   
-  # Test [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Test [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 
   ## Description 
 
-  -g
+  -n
   
   ## Table of Contents (Optional)
   
@@ -16,42 +16,42 @@
 
   ## Installation
 
-  -g
+  -n
  
   
   ## Usage
 
-  -g
+  -n
  
   
   ![image](assets/images/screenshot.png)
     
   ## Credits
 
-  -g
+  -n
   
   ## License
 
   -
     This app is covered under the following license:
-    "https://api.github.com/licenses/mit"
+    Mozilla Public License 2.0"https://api.github.com/licenses/mpl-2.0"
       
   
   ---
   
   ## Badges
 
-  -undefined
+  -No Badge
   
   ## Features
 
-  -g
+  -n
   
   ## How to Contribute
 
   -If you would like to contribute, please feel free to contact us at:
-  -g
-  -https://github.com/g
+  -n
+  -https://github.com/n
  
   ## Tests
- -g
+ -n

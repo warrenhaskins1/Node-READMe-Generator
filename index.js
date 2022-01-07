@@ -50,6 +50,19 @@ const questions = [
     ],
   },
   {
+    type: "list",
+    name: "badges",
+    message: "Please select a badge:",
+    choices: [
+      "No Badge",
+      "GitHub Stats",
+      "Most Used Languages",
+      "Contributors Badge",
+      "Random Joke Generator",
+      "Profile View Counter",
+    ],
+  },
+  {
     type: "input",
     name: "features",
     message: "Please include any features",

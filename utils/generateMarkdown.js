@@ -24,15 +24,15 @@ function renderLicenseLink(license) {
   if (license === "No License") {
     return " ";
   } else if (license === "GNU AGPLv3") {
-    return `"https://api.github.com/licenses/agpl-3.0"`
+    return `${license}"https://api.github.com/licenses/agpl-3.0"`
   } else if (license === "Mozilla Public License 2.0") {
-    return `"https://api.github.com/licenses/mpl-2.0"`
+    return `${license}"https://api.github.com/licenses/mpl-2.0"`
   } else if (license === "Apache License 2.0") {
-    return `"https://api.github.com/licenses/apache-2.0"`
+    return `${license}"https://api.github.com/licenses/apache-2.0"`
   } else if (license === "MIT License") {
-    return `"https://api.github.com/licenses/mit"`
+    return `${license}"https://api.github.com/licenses/mit"`
   } else if (license === "The Unlicense") {
-    return `"https://api.github.com/licenses/unlicense"`
+    return `${license}"https://api.github.com/licenses/unlicense"`
   }
 }
 
