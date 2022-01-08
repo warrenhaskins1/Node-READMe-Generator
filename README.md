@@ -23,8 +23,7 @@
 
   - Launch using node and fill in the prompts.
  
-  
-  ![image](./images/EditDemoNodeJS.gif)
+  - View a Demo here: https://drive.google.com/file/d/1YFXaX4r_xre6y126s-2XPmhyRLtGDLh0/view?usp=sharing
     
   ## Credits
 - https://www.makeuseof.com/badges-that-will-supercharge-your-github-repository/
